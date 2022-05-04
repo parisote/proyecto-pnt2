@@ -1,6 +1,6 @@
 # Proyecto campo
 
-Tracker de ganado
+Tracker de ganado 🐄🐮
 
 ## Home
 ->Login (email,password)
