@@ -1,10 +1,8 @@
 <template>
     <div>
         <h2>
-            Stock
+            Mi Ganado
         </h2>
- 
-    <button>Agregar Producto</button>
     </div>
 </template>
 

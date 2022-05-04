@@ -3,76 +3,26 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
-<div>
-       <p>
-      <router-link to="/">Ir a Home</router-link> |
-      <router-link to="/cliente">Cliente</router-link> |
-      <router-link to="/Stock">Stock</router-link> |
-    </p>
-    <router-view></router-view>
-  <!--Pie-->
-</div>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #C6FECB;">
+  <div class="container-fluid">
+    <router-link class="navbar-brand" to="/">Navbar</router-link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link active" aria-current="page" to="/cliente">Cliente</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link active" aria-current="page" to="/Ganado">Ganado</router-link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-view></router-view>
 </template>
-
-<style>
-@import './assets/base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-}
-</style>

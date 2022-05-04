@@ -3,7 +3,6 @@
         <h2>
             Cliente
         </h2>
-        <button>Agregar Cliente</button>
     </div>
 </template>
 

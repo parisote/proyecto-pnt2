@@ -1,22 +1,19 @@
 <template>
     <div>
-        <h2>
-            Home
-        </h2>
-        <h3>Esto es home</h3>
+        <h1>HOLA</h1>
     </div>
 </template>
 
 
 <script>
-import Stock from "./Stock.vue";
+import Ganado from "./Ganado.vue";
 import Cliente from "./Cliente.vue";
 
 
 export default {
     components: {
         Cliente,
-        Stock
+        Ganado
     }
 }
 </script>

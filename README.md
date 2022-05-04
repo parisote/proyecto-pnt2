@@ -1,29 +1,28 @@
-# vue-project
+# Proyecto campo
 
-This template should help get you started developing with Vue 3 in Vite.
+Tracker de ganado
 
-## Recommended IDE Setup
+## Home
+->Login (email,password)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+->Singup (last_name, first_name, email, password, repassword)
+## Mi Ganado
+->ABM Ganado (code, tipo, raza, edad(datetime), peso, color)/(id, lat, long, datetime)
 
-## Customize configuration
+->para X ganado = ABM -> Historia Clinica
+## Mi Campo
+->ABM (code, name, (cord de campo))
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## About Us
 
-## Project Setup
+## Reportes/Dashboard
+-> Individual por ganado
 
-```sh
-npm install
-```
+-> Grupo cant de vacas en el tiempo
+## Authors
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- [@parisote](https://www.github.com/parisote)
+- [@juanmartinez-19](https://www.github.com/juanmartinez-19)
+- [@termoit](https://www.github.com/termoit)
+- [@AgostinaLuciano](https://www.github.com/AgostinaLuciano)
+- [@katherinepeterson](https://www.github.com/octokatherine)
